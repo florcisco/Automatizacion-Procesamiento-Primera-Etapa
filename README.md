@@ -119,3 +119,39 @@ Durante las pruebas se incorporaron distintas mejoras a partir del uso real de l
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia **MIT**.
+
+---
+
+## Evolución del proyecto
+
+Esta herramienta forma parte de un proceso de automatización académica desarrollado en diferentes etapas.
+
+### Primera etapa — Procesamiento
+
+En esta etapa se realiza el procesamiento inicial de la información académica.
+
+Entre las tareas principales se encuentran:
+
+- Procesamiento de los archivos de cursada.
+- Validación y control de los datos.
+- Cálculo de promedios.
+- Procesamiento de inasistencias.
+- Generación de los reportes necesarios.
+- Preparación de la información para las etapas posteriores.
+- Generación de la hoja `REG 2ET`.
+
+⬇️
+
+### Segunda etapa — Cálculo de recuperatorios
+
+La información generada durante la primera etapa es utilizada posteriormente por una segunda herramienta, encargada del cálculo y procesamiento de los recuperatorios.
+
+Esta etapa incorpora nuevas validaciones, comparación de información entre archivos y generación del reporte correspondiente.
+
+📌 [Ver Segunda Etapa — Automatización del Cálculo de Recuperatorios](https://github.com/florcisco/Automatizacion-Segunda-Etapa)
+
+### Próximas etapas
+
+El proyecto está pensado para continuar creciendo de forma modular, incorporando posteriormente otras etapas relacionadas con la determinación de promociones y condiciones finales.
+
+De esta manera, cada herramienta resuelve una parte específica del proceso y puede desarrollarse y mantenerse de manera independiente.
