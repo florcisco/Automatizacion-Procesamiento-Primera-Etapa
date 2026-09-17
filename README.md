@@ -10,6 +10,33 @@ El programa fue diseñado a partir de necesidades reales detectadas durante su u
 
 ---
 
+## Flujo general del proyecto
+
+```text
+┌─────────────────────────────────────┐
+│         PRIMERA ETAPA               │
+│                                     │
+│ Procesamiento y preparación         │
+│ de la información académica        │
+└─────────────────┬───────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────┐
+│          SEGUNDA ETAPA              │
+│                                     │
+│ Cálculo y procesamiento             │
+│ de recuperatorios                   │
+└─────────────────┬───────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────┐
+│          PRÓXIMAS ETAPAS            │
+│                                     │
+│ Promociones y condiciones           │
+│ finales                             │
+└─────────────────────────────────────┘
+---
+
 ## Características
 
 - Lectura de archivos **Excel (.xlsx)** y **OpenDocument (.ods)**.
